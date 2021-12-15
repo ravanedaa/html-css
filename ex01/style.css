@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'");
-        
-        
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'");         
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab&display=swap');
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -9,6 +10,7 @@
 body {
     background-color: grey;
     color: black;
+    font-family: "Roboto Slab", Arial, sans-serif;
 }
 
 header {
@@ -16,6 +18,7 @@ header {
     padding: 20px;
     text-align: center;
     color: white;
+    font-size: 1.5vw;
 }
 
 header p {
@@ -39,6 +42,25 @@ section {
     color: white;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3.5vw;
+}
+
+#img01 {
+    background-image: url(imagens/borboleta.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+#img02 {
+    background-image: url(imagens/florzin.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
 }
 
 .normal {
@@ -54,6 +76,7 @@ footer {
 
 a {
     text-decoration: none;
+    
 }
 a:hover {
     text-decoration: underline;
