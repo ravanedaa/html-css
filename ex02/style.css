@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #24252A;
+}
+
+header {
+    background-color: #202020;
+    color: white;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Bebas Neue", Arial;
+    height: 12vh;
+    align-items: center;
+    
+}
+
+
+
+footer {
+
+background-color: #202020;
+color: skyblue;    
+text-align: center;
+padding: 20px;
+font-family: "Bebas Neue", Arial;
+font-size: 1.5em;
+
+}
+
+
+#logo {
+    font-size: 3em;
+    letter-spacing: 4px;
+    font-family: "Bebas Neue", Arial;
+    color: lightskyblue;
+}
+
+
+div#container {
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    min-width: 600px;
+}
+div#box1 {    
+    background-color: #f23102;
+    position: relative;
+    transition-duration: .5s;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+}
+div#box1 img {
+    width: 130px;
+    position: absolute;
+    left: 76px;
+    top: -20px;  
+    pointer-events: none;  
+    transition-duration: .5s;
+}
+div#box1:hover {
+    background-color: #da3a13;
+    border-radius: 30px;
+    width: 500px;
+    }
+div#box1:hover img {
+    width: 150px;
+    transform: translateX(200px);
+    top: -50px;
+    }
+
+
+    #comprar {
+        background-color: rgb(255, 255, 255);
+        color: #f23102;
+        width: 150px;
+        height: 40px;
+        border-radius: 15px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        font-family: "Bebas Neue", Arial;
+        font-size: 15pt;
+        align-items: center;
+        transition-duration: .5s;
+    }
+    
+    #content1 h2 {
+        color: rgb(255, 255, 255);
+        font-family: "Bebas Neue", Arial;
+        font-size: 30px;
+    }
+    #content1 p {
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+    }
+    #content1 {
+    font-family: "Roboto Slab", Arial;
+    opacity: 0;
+    color: black;
+    max-width: 200px;
+    pointer-events: none;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    transition-duration: .2s;
+    
+}
+#box1:hover #content1 {
+    opacity: 1;
+    pointer-events: all;
+}
+#comprar:hover {
+    width: 170px;
+}
+div#box2 {
+    background-color: skyblue;
+    position: relative;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    transition-duration: .5s;
+}
+div#box2 img {
+    width: 160px;
+    position: absolute;
+    top: -30px;
+    left: 60px;
+    transition-duration: .5s;
+    }
+    div#box2:hover {
+        background-color: skyblue;
+        border-radius: 30px;
+        width: 500px;
+        }
+    div#box2:hover img {
+        width: 180px;
+        transform: translateX(230px);
+        top: -50px;
+        }
+        #content2 h2 {
+            color: #f23102;
+            font-family: "Bebas Neue", Arial;
+            font-size: 30px;
+        }
+        #content2 p {
+            font-size: 14px;
+            color: #f23102;
+        }
+        #content2 {
+        font-family: "Roboto Slab", Arial;
+        opacity: 0;
+        color: black;
+        max-width: 200px;
+        pointer-events: none;
+        position: relative;
+        top: 20px;
+        left: 30px;
+        transition-duration: .2s;
+        
+    }
+    #box2:hover #content2 {
+        opacity: 1;
+        pointer-events: all;
+    }
+    #comprar2:hover {
+        width: 170px;
+    }
+    #comprar2 {
+        background-color: #f23102;
+        color: skyblue;
+        width: 150px;
+        height: 40px;
+        border-radius: 15px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        font-family: "Bebas Neue", Arial;
+        font-size: 15pt;
+        align-items: center;
+        transition-duration: .5s;
+    }
+
+
+
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}   
+
+nav ul li {
+    padding: 10px 30px;
+
+}
+
+nav ul li a {
+
+    font-size: 20px;
+    color: skyblue;
+    text-align: center;
+}
+
+
+
+.login {
+    background-color: lightskyblue;
+    width: 50px;
+    height: 27px; 
+    border-radius: 30px;
+    transition: .3s;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.login:hover {
+    width: 60px;
+    pointer-events: all;
+}
+
+ a {
+    text-decoration: none;
+    transition: .3s;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
